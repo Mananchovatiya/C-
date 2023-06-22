@@ -1,9 +1,8 @@
 #include<stdio.h>
-#include<conio.h>
-void main()
+int main()
 {
   int i,j;
-  clrscr();
+  
   for(i=1;i<=5;i++)
   {
 	for(j=1;j<=i;j++)
@@ -12,5 +11,5 @@ void main()
 	}
 	printf("\n");
   }
-  getch();
+  
 }

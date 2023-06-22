@@ -1,9 +1,7 @@
 #include<stdio.h>
-#include<conio.h>
-void main()   // nested for loop
+int ser()
 {
     int i,j;
-    clrscr();
     for(i=1;i<=5;i++)  // row
     {
 	for(j=1;j<=5;j++)    // col
@@ -12,5 +10,8 @@ void main()   // nested for loop
 	}
 	printf("\n");
     }
-    getch();
+}
+int main() 
+{
+   	ser();
 }

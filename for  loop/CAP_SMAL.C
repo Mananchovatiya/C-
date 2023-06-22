@@ -1,9 +1,7 @@
 #include<stdio.h>
-#include<conio.h>
-void main()
+int s()
 {
-    char i;
-    clrscr();
+	  char i;
     for(i=0;i<=24;i+=2)
     {
 	if(i%4==0)
@@ -14,5 +12,8 @@ void main()
 		printf("%c ",i+97);
 	}
     }
-    getch();
+}
+int main()
+{
+  s();
 }

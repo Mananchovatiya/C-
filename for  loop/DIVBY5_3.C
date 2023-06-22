@@ -1,9 +1,7 @@
 #include<stdio.h>
-#include<conio.h>
-void main()
+int s()
 {
-	int a;
-	clrscr();
+int a;
 	printf("Enter value of a:");
 	scanf("%d",&a);
 	if(a%5==0&&a%3==0)
@@ -12,7 +10,9 @@ void main()
 	}
 	else{
 		printf("%d is not divisible by 5  and 3",a);
-	}
-	getch();
-
+	}	
+}
+int main()
+{
+s()	
 }

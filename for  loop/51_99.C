@@ -1,13 +1,16 @@
 #include<stdio.h>
-
-int main()
+int s()
 {
 	int a;
 	a=51;
 	do
 	{
 		printf("%d,  ",a);
-		a++
-	}while(a=51;a<=99;a++);
+		a++;
+	}while(a<=99);
 	
+}
+int main()
+{
+	s();
 }

@@ -1,10 +1,8 @@
 #include<stdio.h>
-#include<conio.h>
-void main()
+int s()
 {
-  char c=65;
+char c=65;
   int k,m;
-  clrscr();
   for(m=1;m<=5;m++)
   {
 	for(k=1;k<=m;k++)
@@ -19,6 +17,9 @@ void main()
 	}
 
 	printf("\n");
-  }
-  getch();
+  }	
+}
+int main()
+{
+  s();
 }

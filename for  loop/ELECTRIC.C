@@ -1,10 +1,10 @@
 #include<stdio.h>
-#include<conio.h>
-void main()
+int s()
 {
+
 	int unit;
 	float bill,sur_charge;
-	clrscr();
+
 	printf("Enter value of unit:");
 	scanf("%d",&unit);
 	if(unit <=100){
@@ -24,5 +24,9 @@ void main()
 		printf("\nYour sur_charge is: %f",sur_charge);
 		printf("\nYour  final bill amt: %f",bill);
 	}
-	getch();
+	
+}
+int main()
+{s();
+
 }

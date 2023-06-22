@@ -1,16 +1,20 @@
 #include<stdio.h>
-
-int main()   // nested for loop
+int s()
 {
-    int i,j;
-    
-    for(i=1;i<=25;i+=0)  // row
+	 int i,j;
+
+    for(i=1;i<=5;i+=5)  // row
     {
-	for(j=1;j<=5;j++,i+=1)    // col
+	for(j=1;j<=25;j++)    // col
 	{
-		printf("%d ",i);
+		printf("%d ",j);
 	}
 	printf("\n");
     }
-    
 }
+int main()   // nested for loop
+{
+   s();
+ 
+}
+

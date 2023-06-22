@@ -1,14 +1,16 @@
 #include<stdio.h>
-#include<conio.h>
-void main()
+int s()
 {
-  int i,n;
-  clrscr();
+	 int i,n;
   printf("Enter value  of n:");
   scanf("%d",&n);
   for(i=1;i<=n;i*=2)
   {
 	printf("%d,",i);
-  }
-  getch();
+  }	
+}
+int main()
+{
+ 
+ s();
 }

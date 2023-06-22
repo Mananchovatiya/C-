@@ -1,12 +1,15 @@
 #include<stdio.h>
-#include<conio.h>
-void main()
+int s()
 {
   char i;
-  clrscr();
+  
   for(i=65;i<=90;i++)
   {
 	printf("%c,",i++);
   }
-  getch();
+ 		
+}
+int main()
+{
+s();
 }

@@ -1,13 +1,13 @@
 #include<stdio.h>
-#include<conio.h>
-void main()
+int s()
 {
-    char ch,lwr,upr;
-    clrscr();
+ char ch,lwr,upr;
     printf("Enter your ch:");
     scanf("%c",&ch);
     lwr = (ch == 'a'|| ch == 'e'||ch == 'i'||ch== 'u'||ch== 'o');
     upr = (ch == 'A' || ch== 'E' || ch== 'I' || ch== 'U'|| ch== 'O');
+int  r()
+{
     if(lwr || upr)
     {
     printf("%c is vowel",ch);
@@ -16,7 +16,13 @@ void main()
     {
     printf("%c is consotant",ch);
     }
-    getch();
+}
+ return ch;	
+}
+int main()
+{
+   s();
+	r();
 }
 
 

@@ -1,12 +1,13 @@
 #include<stdio.h>
-#include<conio.h>
-void  main()
+int s()
 {
 	int dollar,rupees;
-	clrscr();
 	printf("Enter the amount of dollar:");
 	scanf("%d",&dollar);
-	rupees = dollar*80;
+	rupees = dollar*90;
 	printf("%d dollar:%d rupees",dollar,rupees);
-	getch();
+}
+int  main()
+{s();
+	
 }

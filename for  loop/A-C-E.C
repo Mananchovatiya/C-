@@ -1,18 +1,20 @@
 #include<stdio.h>
-#include<conio.h>
-void main()   // nested for loop
+int s()
 {
-    char i,j;
-    clrscr();
-    for(i=1;i<=5;i++)  // row
+char i,j;
+   
+    for(i=65;i<=90;i++)  // row
     {
-	for(j=1;j<=3;j++)    // col
-	{
-		printf("* ");
-	}
-	printf("\n");
+	
+		printf("%c, ",i++);
+	
     }
-    getch();
+  
+	
+}
+int main()   // nested for loop
+{
+    s();
 }
 
 

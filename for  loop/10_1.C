@@ -1,7 +1,7 @@
 #include<stdio.h>
-int main()
+int s()
 {
-    int a;
+	int a;
 	a=10;
     do
     {
@@ -9,6 +9,10 @@ int main()
 	a--;
     }while(a>=1);
     
+}
+int main()
+{
+    s();
 }
 
 

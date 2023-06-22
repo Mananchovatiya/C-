@@ -1,9 +1,7 @@
 #include<stdio.h>
-#include<conio.h>
-void main()
+int s()
 {
 	char ch,upr,lwr;
-	clrscr();
 	printf("Enter your ch:");
 	scanf("%c",&ch);
 	lwr = ch + 32;
@@ -15,5 +13,8 @@ void main()
 	else{
 		      printf("Youe upper case char is:%c",upr);
 	}
-	getch();
+}
+int main()
+{s();
+	
 }
