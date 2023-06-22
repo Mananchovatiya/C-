@@ -1,0 +1,16 @@
+#include<stdio.h>
+#include<conio.h>
+void main()   // nested for loop
+{
+    char i,j;
+    clrscr();
+    for(i=65;i<=90;i++)  // row
+    {
+	for(j=65;j<=90;j++)    // col
+	{
+		printf("%c ",j);
+	}
+	printf("\n");
+    }
+    getch();
+}

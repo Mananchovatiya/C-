@@ -1,0 +1,16 @@
+#include<stdio.h>
+#include<conio.h>
+void main()   // nested for loop
+{
+    int i,j;
+    clrscr();
+    for(i=5;i>=1;i--)  // row
+    {
+	for(j=1;j<=5;j++)    // col
+	{
+		printf("%d ",i);
+	}
+	printf("\n");
+    }
+    getch();
+}

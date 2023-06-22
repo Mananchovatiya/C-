@@ -1,0 +1,13 @@
+#include<stdio.h>
+
+int main()
+{
+	int a;
+	a=51;
+	do
+	{
+		printf("%d,  ",a);
+		a++;
+	}while(a<=99);
+	
+}
