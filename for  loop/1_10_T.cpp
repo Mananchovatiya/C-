@@ -1,13 +1,14 @@
-#include<stdio.h>
+#include<iostream>
+using namespace std;
 int ser()
 {
 	int i,n=0;
 	for(i=1;i<=10;i++)
 	{
-		printf("\n%d",i);
+		cout<<"\n"<<i;
 		n=n+i;
 	}
-	printf("\nTotal is:%d",n);
+	cout<<"\nTotal is:"<< n;
 }
 int main()
 {

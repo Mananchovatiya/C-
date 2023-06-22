@@ -1,4 +1,5 @@
-#include<stdio.h>
+#include<iostream>
+using namespace std;
 int ser()
 {
     int i,j;
@@ -6,9 +7,9 @@ int ser()
     {
 	for(j=1;j<=5;j++)    // col
 	{
-		printf("%d ",j);
+		cout<<" "<<j;
 	}
-	printf("\n");
+	cout<<"\n";
     }
 }
 int main() 
