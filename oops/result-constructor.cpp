@@ -7,7 +7,7 @@ class test
     public:
     test()
     {      
-            cout<<"\nEnter m: ";
+            cout<<"\nEnter m: "; 
             cin>>m;
             cout<<"\nEnter s: ";
             cin>>s;
