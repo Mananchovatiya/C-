@@ -12,7 +12,7 @@ class result
             cout<<"\nEnter s: ";
             cin>>s;
             cout<<"\nEnter e: ";
-            cin>>e;
+            cin>>e;  
     }
     void cal()
     {
